@@ -45,6 +45,9 @@
 		<Item Name="StepStatus.ctl" Type="VI" URL="../controls/StepStatus.ctl"/>
 		<Item Name="StepType.ctl" Type="VI" URL="../controls/StepType.ctl"/>
 	</Item>
+	<Item Name="example" Type="Folder">
+		<Item Name="Simple SeqProcessor.vi" Type="VI" URL="../example/Simple SeqProcessor.vi"/>
+	</Item>
 	<Item Name="main" Type="Folder">
 		<Item Name="GetOneStep.vi" Type="VI" URL="../main/GetOneStep.vi"/>
 		<Item Name="GetOneStepIndex.vi" Type="VI" URL="../main/GetOneStepIndex.vi"/>
