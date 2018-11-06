@@ -42,6 +42,7 @@
 		<Item Name="StepAction.ctl" Type="VI" URL="../controls/StepAction.ctl"/>
 		<Item Name="StepIndex.ctl" Type="VI" URL="../controls/StepIndex.ctl"/>
 		<Item Name="StepResult.ctl" Type="VI" URL="../controls/StepResult.ctl"/>
+		<Item Name="StepScript.ctl" Type="VI" URL="../controls/StepScript.ctl"/>
 		<Item Name="StepStatus.ctl" Type="VI" URL="../controls/StepStatus.ctl"/>
 		<Item Name="StepType.ctl" Type="VI" URL="../controls/StepType.ctl"/>
 	</Item>
@@ -54,6 +55,7 @@
 		<Item Name="GetStepData.vi" Type="VI" URL="../main/GetStepData.vi"/>
 		<Item Name="GetStepIndex.vi" Type="VI" URL="../main/GetStepIndex.vi"/>
 		<Item Name="GetStepScript.vi" Type="VI" URL="../main/GetStepScript.vi"/>
+		<Item Name="ImportScript.vi" Type="VI" URL="../main/ImportScript.vi"/>
 		<Item Name="ParseNextStep.vi" Type="VI" URL="../main/ParseNextStep.vi"/>
 		<Item Name="ParseStepIndex.vi" Type="VI" URL="../main/ParseStepIndex.vi"/>
 		<Item Name="ParseStepInfo.vi" Type="VI" URL="../main/ParseStepInfo.vi"/>
