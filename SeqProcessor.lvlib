@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="controls" Type="Folder">
 		<Item Name="ConditionalStep.ctl" Type="VI" URL="../controls/ConditionalStep.ctl"/>
+		<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 		<Item Name="JumpStep.ctl" Type="VI" URL="../controls/JumpStep.ctl"/>
 		<Item Name="NormalStep.ctl" Type="VI" URL="../controls/NormalStep.ctl"/>
 		<Item Name="ParallelStep.ctl" Type="VI" URL="../controls/ParallelStep.ctl"/>
