@@ -36,6 +36,7 @@
 	<Item Name="controls" Type="Folder">
 		<Item Name="ConditionalStep.ctl" Type="VI" URL="../controls/ConditionalStep.ctl"/>
 		<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
+		<Item Name="Flag.ctl" Type="VI" URL="../controls/Flag.ctl"/>
 		<Item Name="JumpStep.ctl" Type="VI" URL="../controls/JumpStep.ctl"/>
 		<Item Name="NormalStep.ctl" Type="VI" URL="../controls/NormalStep.ctl"/>
 		<Item Name="ParallelStep.ctl" Type="VI" URL="../controls/ParallelStep.ctl"/>
@@ -55,12 +56,10 @@
 			<Item Name="GetOneStep.vi" Type="VI" URL="../main/GetOneStep.vi"/>
 			<Item Name="GetOneStepIndex.vi" Type="VI" URL="../main/GetOneStepIndex.vi"/>
 			<Item Name="GetStepData.vi" Type="VI" URL="../main/GetStepData.vi"/>
-			<Item Name="GetStepIndex.vi" Type="VI" URL="../main/GetStepIndex.vi"/>
 			<Item Name="ParseStepIndex.vi" Type="VI" URL="../main/ParseStepIndex.vi"/>
 			<Item Name="ParseVariable.vi" Type="VI" URL="../main/ParseVariable.vi"/>
 			<Item Name="UpdateOneStep.vi" Type="VI" URL="../main/UpdateOneStep.vi"/>
 			<Item Name="UpdateOneStepIndex.vi" Type="VI" URL="../main/UpdateOneStepIndex.vi"/>
-			<Item Name="UpdateStepIndex.vi" Type="VI" URL="../main/UpdateStepIndex.vi"/>
 			<Item Name="UpdateStepResult.vi" Type="VI" URL="../main/UpdateStepResult.vi"/>
 			<Item Name="UpdateStepScript.vi" Type="VI" URL="../main/UpdateStepScript.vi"/>
 		</Item>
@@ -68,16 +67,31 @@
 		<Item Name="ParseStepInfo.vi" Type="VI" URL="../main/ParseStepInfo.vi"/>
 		<Item Name="Script_Get.vi" Type="VI" URL="../main/Script_Get.vi"/>
 		<Item Name="Script_Import.vi" Type="VI" URL="../main/Script_Import.vi"/>
+		<Item Name="Seq_Pause.vi" Type="VI" URL="../main/Seq_Pause.vi"/>
+		<Item Name="Seq_Resume.vi" Type="VI" URL="../main/Seq_Resume.vi"/>
+		<Item Name="Seq_SingleStep.vi" Type="VI" URL="../main/Seq_SingleStep.vi"/>
 		<Item Name="Seq_Start.vi" Type="VI" URL="../main/Seq_Start.vi"/>
+		<Item Name="Seq_Stop.vi" Type="VI" URL="../main/Seq_Stop.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="GetSequencePointValueMap.vi" Type="VI" URL="../subVIs/GetSequencePointValueMap.vi"/>
+		<Item Name="Flag_Clear.vi" Type="VI" URL="../subVIs/Flag_Clear.vi"/>
+		<Item Name="Flag_Parse.vi" Type="VI" URL="../subVIs/Flag_Parse.vi"/>
+		<Item Name="Flag_Read.vi" Type="VI" URL="../subVIs/Flag_Read.vi"/>
+		<Item Name="Flag_Update.vi" Type="VI" URL="../subVIs/Flag_Update.vi"/>
+		<Item Name="Flag_Write.vi" Type="VI" URL="../subVIs/Flag_Write.vi"/>
+		<Item Name="Index_Read.vi" Type="VI" URL="../subVIs/Index_Read.vi"/>
+		<Item Name="Index_Update.vi" Type="VI" URL="../subVIs/Index_Update.vi"/>
+		<Item Name="Index_Write.vi" Type="VI" URL="../subVIs/Index_Write.vi"/>
 		<Item Name="Name_Index.vi" Type="VI" URL="../subVIs/Name_Index.vi"/>
-		<Item Name="Name_OneStep.vi" Type="VI" URL="../subVIs/Name_OneStep.vi"/>
 		<Item Name="Name_OneStepIndex.vi" Type="VI" URL="../subVIs/Name_OneStepIndex.vi"/>
 		<Item Name="Name_Script.vi" Type="VI" URL="../subVIs/Name_Script.vi"/>
+		<Item Name="Name_SeqFlag.vi" Type="VI" URL="../subVIs/Name_SeqFlag.vi"/>
 		<Item Name="Name_Sequence.vi" Type="VI" URL="../subVIs/Name_Sequence.vi"/>
+		<Item Name="Name_StepPause.vi" Type="VI" URL="../subVIs/Name_StepPause.vi"/>
 		<Item Name="SendNextStep.vi" Type="VI" URL="../subVIs/SendNextStep.vi"/>
+		<Item Name="SeqMap_Get.vi" Type="VI" URL="../subVIs/SeqMap_Get.vi"/>
+		<Item Name="SeqMap_Read.vi" Type="VI" URL="../subVIs/SeqMap_Read.vi"/>
+		<Item Name="SeqMap_Write.vi" Type="VI" URL="../subVIs/SeqMap_Write.vi"/>
 	</Item>
 	<Item Name="test" Type="Folder">
 		<Item Name="test.vi" Type="VI" URL="../test/test.vi"/>
